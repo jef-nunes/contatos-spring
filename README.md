@@ -4,7 +4,7 @@ Backend para registro de contatos, desenvolvido com Kotlin e Spring Framework. P
 <br>
 
 ### Banco de dados
-Para o projeto foi escolhido o banco de dados H2 em modo de arquivo.
+Para o projeto foi escolhido o banco de dados portável H2 em modo de arquivo.
 <br>
 <br>
 
