@@ -1,5 +1,5 @@
 ### Sobre
-Backend para registro de contatos, desenvolvido com Kotlin e Spring Framework. Para gerenciamento do projeto foi escolhido o Maven.
+API para registro de contatos, desenvolvido com Kotlin e Spring Framework. Para gerenciamento do projeto foi escolhido o Maven.
 <br>
 <br>
 
