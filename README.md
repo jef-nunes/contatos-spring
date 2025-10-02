@@ -10,7 +10,7 @@ Lista das principais tecnologias utilizadas no projeto:
 <br><br>
 
 ## Modelo de dados
-O sistema contem duas entidades principais: contatos e tags. Segue trecho dos modelos em Kotlin para cada entidade:
+O sistema contem duas entidades principais: contatos e tags. Segue trecho do código Kotlin para cada entidade:
 
 ### Contato
 ```kotlin
