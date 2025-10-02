@@ -16,14 +16,21 @@ O sistema contem duas entidades principais: contatos e tags. Segue trecho do có
 ```kotlin
 @Entity
 data class Contato(
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id: Long? = 0,
+
     var nome: String? = "",
+
     var email: String? = "",
+
     var telefone: String? = "",
+
     var dataCriado: LocalDateTime? = LocalDateTime.now(),
+
     var dataModificado: LocalDateTime? = LocalDateTime.now(),
+
     @ManyToMany
     @JoinTable(
     name="contato_tag",
@@ -38,13 +45,20 @@ data class Contato(
 ```kotlin
 @Entity
 data class Tag(
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     val id: Long? = 0,
+
     var nome: String? = "",
+
     var descricao: String? = "",
+
     var dataCriado: LocalDateTime? = LocalDateTime.now(),
+
     var dataModificado: LocalDateTime? = LocalDateTime.now(),
+
     @ManyToMany(mappedBy = "tags")
     var contatos: MutableList<Contato> = mutableListOf()
 )
