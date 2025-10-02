@@ -1,5 +1,5 @@
 ## Sobre
-O projeto consiste em uma API REST que permite a um client gerenciar um banco de dados de contatos. Cada contato pode ter nome, email, telefone e tags descritivas.
+O projeto consiste em uma API REST que permite a um client gerenciar contatos, salvando os dados do contato em um banco de dados portável. Cada contato pode ter nome, email, telefone e tags descritivas.
 <br><br>
 
 ## Tecnologias
